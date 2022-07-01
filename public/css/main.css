@@ -1,0 +1,38 @@
+
+.banner img{
+    height: 13%;
+    width: 100%;
+}
+.main .productos img{
+    height: 55vh;
+}
+.visita{
+    border-top: 15px solid;
+    border-left: 15px solid;
+    border-right: 15px solid;
+    border-color: var(--grisClaro);
+}
+.ofertas{
+    border-left: 15px solid;
+    border-right: 15px solid;
+    border-color: var(--grisClaro);
+}
+.main section ul{
+    padding: 0;
+    margin-bottom: 0;  
+}
+.main section h2{
+    margin: 0;
+    background-color: var(--grisClaro);
+    border-bottom: 10px solid var(--grisClaro);
+}
+.main section ul li{
+    text-align: center;
+    list-style: none;
+}
+.nombreProducto{
+    font-size: 18px;
+    border-bottom: 10px solid var(--grisClaro);
+    margin-bottom: 0;
+}
+

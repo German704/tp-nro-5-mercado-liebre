@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+*{
+    font-family: var(--fuenteTipografico);
+    list-style: none;
+}
+h3{
+    font-size: 16px;
+}
+.titulares{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+    color: var(--grisOscuro);
+}
+.descuentos{
+    font-size: 16px;
+    color: var(--grisOscuro);
+}
+

@@ -1,0 +1,37 @@
+.header{
+    background-color: var(--amarillo);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+}
+.logo{
+    height: 13%;
+    width: 37%;
+    padding: 9% 9% 3%;
+}
+.buscador{
+    margin-left: 5%;
+}
+.buscador input{
+    width: 225px;
+    font-size: 16px;
+}
+.header h3{
+    text-align: center;
+}
+.header nav ul{
+    padding: 0px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.hamburger{
+    text-align: center;
+}
+.hamburger button{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color: var(--celeste);
+}

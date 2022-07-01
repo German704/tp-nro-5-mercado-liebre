@@ -1,0 +1,26 @@
+.footer{
+    background-size: cover;
+    border: 5px solid var(--grisClaro);
+}
+.footer div{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+.footer div i{
+    margin-top: 50px;
+    font-size: 30px;
+    color: var(--celeste);
+}
+.footer div h2{
+    margin: 10px 0 0;
+}
+.footer div p{
+    color: var(--grisOscuro);
+    margin: 0;
+    padding: 0 66px;
+}
+#copyright{
+    font-size: 12px;
+    padding: 0 15px;
+}
