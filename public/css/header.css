@@ -1,31 +1,36 @@
 .header{
     background-color: var(--amarillo);
-    background-repeat: no-repeat;
-    background-size: 100vh;
 }
-.logo{
-    height: 13%;
-    width: 37%;
-    padding: 9% 9% 3%;
+.logo img{
+    margin: 30px 30px 10px;
+    width: 47%;
+    min-width: 200px;
 }
 .buscador{
-    margin-left: 5%;
+    margin-left: 30px;
 }
 .buscador input{
-    width: 225px;
-    font-size: 16px;
+    width: 200px;
+    font-size: 14px;
+}
+.buscador button{
+    font-size: 14px;
 }
 .header h3{
     text-align: center;
 }
 .header nav ul{
-    padding: 0px;
+    margin: 0;
+    padding: 0 0 20px;
+    /* ocultar el nav ul */
+    display: none;
 }
 .header nav ul li a{
     text-decoration: none;
     color: black;
 }
 .hamburger{
+    margin-top: 30px;
     text-align: center;
 }
 .hamburger button{
@@ -34,4 +39,24 @@
     font-size: 30px;
     margin-bottom: 20px;
     background-color: var(--celeste);
+}
+
+/* tablet */
+@media (min-width: 461px){
+    .logo img{
+        max-width: 310px;
+    }
+    .header nav ul{
+        margin: 0;
+        padding: 0 0 20px;
+        display: block;
+    }
+    .hamburger{
+        display: none;
+    }
+}
+
+/* desktop */
+@media (min-width: 769){
+
 }

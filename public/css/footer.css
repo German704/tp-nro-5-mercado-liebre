@@ -1,11 +1,10 @@
 .footer{
-    background-size: cover;
-    border: 5px solid var(--grisClaro);
+    background-color: white;
 }
 .footer div{
     text-align: center;
     margin-bottom: 40px;
-    font-size: 12px;
+    font-size: var(--cuerposDeTexto);
 }
 .footer div i{
     margin-top: 50px;
@@ -14,6 +13,7 @@
 }
 .footer div h2{
     margin: 10px 0 0;
+    color: var(--grisOscuro);
 }
 .footer div p{
     color: var(--grisOscuro);
@@ -21,6 +21,17 @@
     padding: 0 66px;
 }
 #copyright{
-    font-size: 12px;
-    padding: 0 15px;
+    font-size: var(--cuerposDeTexto);
+    padding: 15px;
+    margin: 0;
+}
+
+/* tablet */
+@media (min-width:461px){
+
+}
+
+/* desktop */
+@media (min-width:769px){
+
 }

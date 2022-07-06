@@ -3,3 +3,20 @@
 :root{
     --fuenteTipografico: 'Roboto', sans-serif;
 }
+
+
+:root{
+    /* colores */
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --grisClaro: #ebebeb;
+    --verde: #39b54a;
+    /* tipografias */
+    --cuerposDeTexto: 12px;
+    --titulares: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
+}
