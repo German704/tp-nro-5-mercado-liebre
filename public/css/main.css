@@ -22,23 +22,32 @@
 }
 .divImg{
     border-bottom: 1px solid var(--grisClaro);
+    display: flex;
+    justify-content: center;
 }
 .contenedor{
-    text-align: start;
-    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 15px 15px;
 }
 .camion{
-    padding: 15px;
-    font-size: 25px;
+    padding: 5px;
+    font-size: 16px;
     border: 2px solid var(--verde);
     border-radius: 50%;
     max-width: 30px;
     color: var(--verde);
+    position: relative;
+    left: 87%;
+    bottom: 2.5vh;
 }
 .main section h3{
     font-size: var(--descripciones);
-    margin: 16px 0 0;
+    margin: 10px 0 0;
     color: var(--grisOscuro);
+    width: 250px;
+    font-weight: normal;
 }
 
 /* tablet */
@@ -49,9 +58,51 @@
     main section ul li h3{
         display: block;
     }
+    .main section ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .main section ul li{
+        width: 48%;
+    }
+    .camion{
+       left: 82%;
+    }
+}
+@media (min-width:600px){
+    .camion{
+        left: 86%;
+     }
 }
 
 /* desktop */
 @media (min-width:769px){
-
+    .main{
+        max-width: 1024px;
+    }
+    .main section ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .main section ul li{
+        width: 23%;
+    }
+    .camion{
+       left: 76%;
+       top: -2vh;
+       font-size: 12px;
+       width: 25px;
+       padding: 3px;
+    }
+    .main section ul li .contenedor{
+        padding: 0 13px 13px;
+    }
+    .main section ul li .descuentos{
+        font-size: 15px;
+    }
+    .main section ul li .precios{
+        font-size: 17px;
+    }
 }

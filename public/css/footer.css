@@ -1,10 +1,12 @@
 .footer{
-    background-color: white;
+    background-color: white;   
 }
 .footer div{
+    margin: 0 auto;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: var(--cuerposDeTexto);
+    max-width: 375px;
 }
 .footer div i{
     margin-top: 50px;
@@ -28,10 +30,16 @@
 
 /* tablet */
 @media (min-width:461px){
-
+    .footer {
+        display: flex;
+            flex-wrap: wrap;
+       }
+       .footer div{
+            max-width: 33%;
+       }
 }
 
 /* desktop */
 @media (min-width:769px){
-
+    
 }
