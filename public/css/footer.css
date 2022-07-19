@@ -2,7 +2,6 @@
     background-color: white;   
 }
 .footer div{
-    margin: 0 auto;
     text-align: center;
     margin-bottom: 20px;
     font-size: var(--cuerposDeTexto);
@@ -32,10 +31,20 @@
 @media (min-width:461px){
     .footer {
         display: flex;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-between;    
        }
        .footer div{
-            max-width: 33%;
+        margin-top: 20px;
+        padding: 5px 5px 5px 8px;
+        max-width: 33%;
+        border-left: 2px solid var(--grisClaro);
+       }
+       .footer div:first-child{
+        border-left: 0;
+       }
+       .footer div p{
+        padding: 0;
        }
 }
 
