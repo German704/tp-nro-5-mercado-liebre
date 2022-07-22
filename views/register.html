@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- font -->
+    <script src="https://kit.fontawesome.com/b19d58878c.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <section>
+            <div class="top">
+                <div class="logo">    
+                    <img src="/img/logo-mercado-liebre.svg" alt="logo de la pag">
+                </div>
+                
+                <div class="buscador">
+                    <input type="search" placeholder="Buscar productos, marcas" >
+                    <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+           <h3><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h3>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas Oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="/register">Creá tu cuenta</a> <i class="fa-solid fa-id-card"></i></li>
+                <li><a href="/login">Ingresá</a> <i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a href="">Mis compras</a> <i class="fa-solid fa-basket-shopping"></i></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger">
+            <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+    <main class="register">
+        <h1>Registrarse</h1>
+        <form action="/register" method="post">
+            <div class="text">
+                <!-- <label for="name">Nombre y apellido</label> -->
+                <input type="text" name="name" id="name" placeholder="Nombre y apellido" minlength="10" required>
+                <small>"Obligatorio"</small>
+            </div>
+            <div class="text">
+                <!-- <label for="user">Nombre de Usuario</label> -->
+                <input type="text" name="user" id="user" placeholder="Nombre de Usuario"minlength="5" required>
+                <small>"Obligatorio"</small>
+            </div>
+            <div class="text">
+                <!-- <label for="email">E-mail</label> -->
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                <small>"Obligatorio"</small>
+            </div>
+            <div class="text">
+                <h3>Fecha de nacimiento</h3>
+                <input type="date" name="avatar" accept=".jpg" multiple>
+                <small>"Obligatorio"</small>
+            </div>
+            <div class="text">
+                <!-- <label for="home">Domicilio</label> -->
+                <input type="text" name="home" id="home" placeholder="Domicilio" required>
+                <small>"Obligatorio"</small>
+            </div>
+            <div class="select">
+                <h3>Perfil del Usuario</h3>
+                <ul class="list">
+                    <li><input type="radio" name="profile" id="C" value="Comprador">
+                        <label for="C">Comprador</label>
+                        
+                    <li><input type="radio" name="profile" id="V" value="Vendedor">
+                        <label for="V"> Vendedor</label></li></li>
+                </ul>
+                <small>"Obligatorio"</small>
+            </div>
+            <div class="select">
+                <h3>Intereses</h3>
+                <ul>
+                    <li><input type="checkbox" name="E" id="E" value="Electro">
+                        <label for="E">Electro</label></li>
+
+                    <li><input type="checkbox" name="M" id="M" value="Moda">
+                        <label for="M">Moda</label></li>
+
+                    <li><input type="checkbox" name="H" id="H" value="Hogar">
+                        <label for="H">Hogar</label></li>
+
+                    <li><input type="checkbox" name="J" id="J" value="Juguetería">
+                        <label for="J">Juguetería</label></li>
+
+                    <li><input type="checkbox" name="Vs" id="Vs" value="Vida sana">
+                        <label for="Vs">Vida sana</label></li>
+                </ul>
+            </div>
+            <div class="text">
+                <h3>Foto de Usuario</h3>
+                <input type="file" name="photo" id="photo">
+            </div>
+            <div class="text">
+                <!-- <label for="pass">Contraseña</label> -->
+                <input type="password" name="pass" id="pass" placeholder="Contraseña" minlength="8" required>
+                <small>"Obligatorio"</small>
+            </div>
+            <div class="text">
+                <!-- <label for="pass2">Repetir Contraseña</label> -->
+                <input type="password" name="pass2" id="pass2" placeholder="Repetir Contraseña" minlength="8" required>
+                <small>"Obligatorio"</small>
+            </div>
+            <div class="button">
+                <button type="submit"><a href="/">Enviar</a></button>
+                <button type="reset">Borrar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
