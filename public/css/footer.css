@@ -12,6 +12,10 @@
     font-size: 30px;
     color: var(--celeste);
 }
+.footer div i:hover{
+    color:navy;
+    transition: all 0.6s;
+}
 .footer div h2{
     margin: 10px 0 0;
     color: var(--grisOscuro);
